@@ -18,10 +18,11 @@ Ma'lumotlar bazasi o'rniga `data/` ichidagi JSON fayllar ishlatiladi. Barcha o'q
 ## O'rnatish
 
 ```bash
-npm i
+npm install
 cp .env.example .env
+cp data/users.example.json data/users.json
+cp data/codes.example.json data/codes.json
 npm run dev
-```
 
 Windows PowerShell uchun:
 
